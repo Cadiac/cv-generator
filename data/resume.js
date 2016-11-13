@@ -1,47 +1,41 @@
 module.exports = {
-  name: "Kaijun Chen",
+  name: "Jaakko Husso",
   intro: "I'm Kaijun, i gonna use Markdown here, but it's haven't been implemented yet.",
   contact: [
     {
       title: "Call",
-      content: "+4917888888888"
+      content: "+358404102007"
     },
     {
       title: "Mail",
-      content: "kaijun.cn@gmail.com"
+      content: "jaakko.t.husso@gmail.com"
     },
     {
       title: "Web",
-      content: "http://kaijun.rocks",
-      url: "http://kaijun.rocks"
+      content: "http://liehuletti.website",
+      url: "http://liehuletti.website"
     },
     {
       title: "Home",
-      content: "Fritz-Löffler-Straße. 12/A585, 01069, Dresden, Sachsen, Germany",
+      content: "Tekniikankatu 14 F289, 33720, Tampere, Pirkanmaa, Finland",
     },
   ],
   social: [
-
     {
-      name: "facebook",
-      username: "kaijun",
-      url: "https://www.facebook.com/demonbane.cn"
+      name: "LinkedIn",
+      username: "Jaakko Husso",
+      url: "https://linkedin.com/in/jaakko-husso-893a2b102"
     },
     {
-      name: "twitter",
-      username: "Demonbane_x",
-      url: "https://twitter.com/Demonbane_x"
+      name: "Github",
+      username: "Cadiac",
+      url: "https://github.com/Cadiac"
     },
     {
-      name: "instagram",
-      username: "kaijun.cn",
-      url: "https://www.instagram.com/kaijun.cn/"
-    },
-    {
-      name: "weibo",
-      username: "Demonbane",
-      url: "http://weibo.com/1656320160/profile?topnav=1&wvr=6"
-    },
+      name: "IRC @IRCnet",
+      username: "Cadiac",
+      url: "https://webchat.ircnet.net/"
+    }
   ],
   experiences: [
     {
