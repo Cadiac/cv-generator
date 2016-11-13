@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       title: "Mail",
-      content: "jaakko.t.husso@gmail.com"
+      content: "cadiac@kapsi.fi"
     },
     {
       title: "Web",
@@ -34,21 +34,15 @@ module.exports = {
     {
       name: "IRC @IRCnet",
       username: "Cadiac",
-      url: "https://webchat.ircnet.net/"
+      url: "http://webchat.ircnet.net/?channels=cadiac"
     }
   ],
   experiences: [
     {
-      company: "Google Inc.",
-      period: "Nov 2016 - Present",
-      title: "Frontend Engineer",
-      desc: "It's a looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooog text!"
-    },
-    {
-      company: "TU Dresden",
-      period: "Nov 2013 - Nov 2015",
-      title: "Student Assistance",
-      desc: "I'm proud that i worked as a Student Assistance!"
+      company: "Eatech Oy",
+      period: "Sep 2015 - Present",
+      title: "Software Designer",
+      desc: "Full stack web development using ASP.Net/AngularJS and mobile development on iOS and Android with React Native."
     }
   ],
   projects: [
@@ -65,16 +59,18 @@ module.exports = {
   ],
   educations: [
     {
-      major: "Network Engineering",
-      degree: "Bachelor",
-      college: "Xidian University",
-      period: "Sep 2008 - Jul 2012",
+      major: "Software Systems",
+      minor: "Computer Engineering",
+      degree: "Bachelor of Science (IT)",
+      college: "Tampere University of Technology",
+      period: "Aug 2012 - Nov 2015",
     },
     {
-      major: "Informatik",
-      degree: "Master",
-      college: "TU Dresden",
-      period: "Oct 2013 - Sep 2016",
+      major: "Pervasive Systems",
+      minor: "Data Technologies",
+      degree: "Master of Science (IT)",
+      college: "Tampere University of Technology",
+      period: "Nov 2015 - Present",
     }
   ],
   skills:[
@@ -83,20 +79,24 @@ module.exports = {
       score: 9
     },
     {
-      name: "HTML",
+      name: "Web Development",
+      score: 8
+    },
+    {
+      name: "React Native",
       score: 6
     },
     {
       name: "NodeJS",
-      score: 9
+      score: 7
     },
     {
-      name: "CSS",
-      score: 8
+      name: "C#",
+      score: 6
     },
     {
-      name: "Android",
-      score: 2
-    },
+      name: "SQL",
+      score: 4
+    }
   ]
 }
