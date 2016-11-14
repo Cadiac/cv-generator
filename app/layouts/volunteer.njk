@@ -1,0 +1,14 @@
+<div class="exp-proj section">
+  <div class="title">VOLUNTEER WORK</div>
+
+  {% for item in local.volunteer %}
+  <div class="entry">
+    <div class="primary">
+      {{item.title}} {{item.year}}
+    </div>
+    <div class="secondary">
+      {{item.desc}}
+    </div>
+  </div>
+  {% endfor %}
+</div>

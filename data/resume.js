@@ -1,6 +1,6 @@
 module.exports = {
   name: "Jaakko Husso",
-  intro: "I'm Kaijun, i gonna use Markdown here, but it's haven't been implemented yet.",
+  intro: "I'm 23 year old web developer interested modern JS technologies, such as React and Redux.",
   contact: [
     {
       title: "Call",
@@ -9,11 +9,6 @@ module.exports = {
     {
       title: "Mail",
       content: "cadiac@kapsi.fi"
-    },
-    {
-      title: "Web",
-      content: "http://liehuletti.website",
-      url: "http://liehuletti.website"
     },
     {
       title: "Home",
@@ -32,8 +27,8 @@ module.exports = {
       url: "https://github.com/Cadiac"
     },
     {
-      name: "IRC @IRCnet",
-      username: "Cadiac",
+      name: "IRC",
+      username: "Cadiac @IRCnet",
       url: "http://webchat.ircnet.net/?channels=cadiac"
     }
   ],
@@ -47,30 +42,38 @@ module.exports = {
   ],
   projects: [
     {
-      title: "CV-Generator",
-      desc: "An elegant CV/Resume template generator loading from config file. Ideal CV/Resume template for Github Pages.",
-      url: "https://github.com/kaijun/cv-generator/"
+      title: "Ovikello (Vincit)",
+      desc: "A modern doorbell solution for office use. This project is currently ongoing and implemented as a part of Project Work on Pervasive Systems course (2016) with a group of five students, my role being the CTO. Our progress can be followed on our project site, and eventually the code will be published with MIT license.",
+      technologies: "Main technologies used are React Native with Redux, NodeJS and PostgreSQL.",
+      url: "http://liehuletti.website"
+    }
+  ],
+  volunteer: [
+    {
+      title: "Studies Offical",
+      year: "2014-2015",
+      desc: "Taking care of studies related affairs at Tamperen TietoTeekkarikilta, like arranging weekly study circles and being responsible for guilds study material sales."
     },
     {
-      title: "Example Project",
-      desc: "It's an Example Project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non tellus sed nisl maximus facilisis ac fringilla tellus. Phasellus tristique magna ac mauris finibus faucibus. Praesent ornare eros non finibus fringilla. Donec eu est sollicitudin, efficitur lacus sodales, ornare ligula. Nam facilisis ultrices posuere. Nam eget sollicitudin dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas dui eros, egestas id diam id, consectetur facilisis quam. Phasellus facilisis viverra sem, ut varius enim tincidunt ac.",
-      url: "http://example.com"
+      title: "Tutor",
+      year: "2013-2015",
+      desc: "Tutoring new IT freshmen to the university life and studies twice in a row.",
     }
   ],
   educations: [
-    {
-      major: "Software Systems",
-      minor: "Computer Engineering",
-      degree: "Bachelor of Science (IT)",
-      college: "Tampere University of Technology",
-      period: "Aug 2012 - Nov 2015",
-    },
     {
       major: "Pervasive Systems",
       minor: "Data Technologies",
       degree: "Master of Science (IT)",
       college: "Tampere University of Technology",
       period: "Nov 2015 - Present",
+    },
+    {
+      major: "Software Systems",
+      minor: "Computer Engineering",
+      degree: "Bachelor of Science (IT)",
+      college: "Tampere University of Technology",
+      period: "Aug 2012 - Nov 2015",
     }
   ],
   skills:[
@@ -88,11 +91,11 @@ module.exports = {
     },
     {
       name: "NodeJS",
-      score: 7
+      score: 6
     },
     {
       name: "C#",
-      score: 6
+      score: 7
     },
     {
       name: "SQL",

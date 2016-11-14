@@ -6,11 +6,19 @@
     <div class="primary">
       {{item.title}}
       {% if item.url %}
-      <a href="{{item.url}}" target="_blank"><img class="link-icon hidden-print" src="images/link.svg"></img></a>
+      <a href="{{item.url}}" target="_blank">
+        <div>
+          {{item.url}}
+          <img class="link-icon hidden-print" src="images/link.svg"></img>
+        </div>
+      </a>
       {% endif %}
     </div>
     <div class="secondary">
       {{item.desc}}
+    </div>
+    <div class="secondary" style="margin-top: 5px">
+      {{item.technologies}}
     </div>
   </div>
   {% endfor %}
